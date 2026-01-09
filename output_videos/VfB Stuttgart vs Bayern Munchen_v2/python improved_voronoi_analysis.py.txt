@@ -1,0 +1,55 @@
+(auto_tactic) E:\soccer\football_analysis>python improved_voronoi_analysis.py --team0 "VfB Stuttgart" --team1 "Bayern Munchen
+Loading data...
+Loaded 290 static maps
+Loaded 290 tti maps
+Calculating possession statistics...
+Generating visualizations...
+  ✓ Saved: voronoi_comparison.png
+  ✓ Saved: temporal_possession.png
+  ✓ Saved: occupation_heatmaps.png
+  ✓ Saved: average_comparison.png
+
+============================================================
+ENHANCED STATISTICAL ANALYSIS RESULTS
+============================================================
+
+1. DESCRIPTIVE STATISTICS:
+----------------------------------------
+
+STATIC:
+  Team0 (VfB Stuttgart): 55.15% ± 7.91% (median: 57.97%)
+  Team1 (Bayern Munchen): 44.85% ± 7.91% (median: 42.03%)
+  Stationarity p-value: 0.1055
+  Autocorrelation p-value: 0.0000
+
+TTI:
+  Team0 (VfB Stuttgart): 54.05% ± 23.55% (median: 54.61%)
+  Team1 (Bayern Munchen): 45.95% ± 23.55% (median: 45.39%)
+  Stationarity p-value: 0.0000
+  Autocorrelation p-value: 0.0000
+
+2. COMPARISON BETWEEN METHODS:
+----------------------------------------
+  Mean Difference (TTI - Static): -1.10%
+  95% CI of Difference: [-3.80%, 1.59%]
+  Paired t-test:
+    t-statistic: -0.8010
+    p-value: 0.423767
+    Result: Not significant
+  Effect Size (Cohen's d): -0.063 (Negligible)
+  Non-parametric Test (Wilcoxon):
+    statistic: 20485.00
+    p-value: 0.668268
+
+3. PRACTICAL SIGNIFICANCE:
+----------------------------------------
+  Team Imbalance (Static): 10.31%
+  Team Imbalance (TTI): 8.11%
+  Imbalance Reduction: 2.20%
+  Relative Improvement: 21.4%
+
+  → No significant difference between methods
+  ✓ Saved: possession_stats_static.csv
+  ✓ Saved: possession_stats_tti.csv
+
+ Analysis complete!

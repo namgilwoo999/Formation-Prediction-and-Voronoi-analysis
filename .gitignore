@@ -1,0 +1,77 @@
+# 개인용 가이드 파일
+GITHUB_GUIDE.md
+
+# 대용량 파일 및 출력물
+models/
+runs/
+
+# Video Files
+# 비디오 파일은 Git으로 관리하지 않음
+input_videos/*.mp4
+input_videos/*.avi
+input_videos/*.mov
+input_videos/*.mkv
+!input_videos/.gitkeep
+
+output_videos/*.mp4
+output_videos/*.avi
+output_videos/*.mov
+output_videos/*.mkv
+!output_videos/.gitkeep
+
+# Python 캐시 및 바이트코드
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 가상환경
+venv/
+ENV/
+env/
+.venv
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 로그 및 임시 파일
+*.log
+*.tmp
+*.temp
+
+# 데이터 및 결과 파일
+*.mp4
+*.avi
+*.mov
+*.pt
+*.pth
+*.weights
+*.npy
+*.pkl
+*.pickle
+
+# 예외: requirements.txt는 포함
+!requirements.txt
+
+# YOLO 학습 데이터 변환 스크립트 (GitHub에 올리지 않음)
+convert_to_yolo/
+
+# 데모 영상 예외 허용 (짧은 영상만 포함)
+!input_videos/demo.mp4
+!input_videos/sample.mp4
+!output_videos/demo_result.mp4
+!output_videos/sample_result.mp4

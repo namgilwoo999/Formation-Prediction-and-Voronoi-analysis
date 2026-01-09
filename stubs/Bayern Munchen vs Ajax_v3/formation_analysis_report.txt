@@ -1,0 +1,46 @@
+============================================================
+FORMATION RECOGNITION ANALYSIS REPORT
+============================================================
+
+Team 0:
+------------------------------
+  Ground Truth Formation: 433 (기본 포메이션)
+  Most Predicted Formation: 4141 (433에서 파생됨)
+    → Normalized to: 433 (base formation)
+  Strict Accuracy: 0.0%
+  Flexible Accuracy (with normalization): 100.0%
+    → Higher flexible accuracy because formations in same family are considered equal
+    → 433 and 4141 both belong to 433 family
+  Average Similarity Score: 0.914
+  Analysis Type: Overall formation (full video)
+  Predictions matching Ground Truth (after normalization):
+    - 4141 (433에서 파생됨)
+  Partial Matches (same family but different variant):
+    - 4141 ≈ 433 (both are 433 variants)
+  Formation Distribution:
+    - 4141 (433에서 파생됨): 1 (100.0%) ≈
+
+  Legend: ✓ = exact match, ≈ = same family
+
+Team 1:
+------------------------------
+  Ground Truth Formation: 4231 (433에서 파생됨)
+    → Normalized to: 433 (base formation)
+  Most Predicted Formation: 4123 (433에서 파생됨)
+    → Normalized to: 433 (base formation)
+  Strict Accuracy: 0.0%
+  Flexible Accuracy (with normalization): 100.0%
+    → Higher flexible accuracy because formations in same family are considered equal
+    → 4231 and 4123 both belong to 433 family
+  Average Similarity Score: 0.925
+  Analysis Type: Overall formation (full video)
+  Predictions matching Ground Truth (after normalization):
+    - 4123 (433에서 파생됨)
+  Partial Matches (same family but different variant):
+    - 4123 ≈ 4231 (both are 433 variants)
+  Formation Distribution:
+    - 4123 (433에서 파생됨): 1 (100.0%) ≈
+
+  Legend: ✓ = exact match, ≈ = same family
+
+============================================================

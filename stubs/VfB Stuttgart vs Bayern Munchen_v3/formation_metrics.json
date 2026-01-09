@@ -1,0 +1,52 @@
+[
+  {
+    "team_id": 0,
+    "team_name": "Team0",
+    "total_segments": 1,
+    "predicted_segments": 1,
+    "avg_similarity": 0.9209470378973015,
+    "max_similarity": 0.9209470378973015,
+    "min_similarity": 0.9209470378973015,
+    "most_common_formation": "352",
+    "ground_truth_formation": "352",
+    "ground_truth_normalized": "352",
+    "accuracy": 1.0,
+    "strict_accuracy": 1.0,
+    "flexible_accuracy": 1.0,
+    "partial_matches": [],
+    "matched_predictions": [
+      "352"
+    ],
+    "formation_distribution": {
+      "352": 1
+    }
+  },
+  {
+    "team_id": 1,
+    "team_name": "Team1",
+    "total_segments": 1,
+    "predicted_segments": 1,
+    "avg_similarity": 0.9002607757253168,
+    "max_similarity": 0.9002607757253168,
+    "min_similarity": 0.9002607757253168,
+    "most_common_formation": "4213",
+    "ground_truth_formation": "4231",
+    "ground_truth_normalized": "433",
+    "accuracy": 0.0,
+    "strict_accuracy": 0.0,
+    "flexible_accuracy": 1.0,
+    "partial_matches": [
+      [
+        "4213",
+        "4231",
+        "433"
+      ]
+    ],
+    "matched_predictions": [
+      "4213"
+    ],
+    "formation_distribution": {
+      "4213": 1
+    }
+  }
+]
